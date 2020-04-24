@@ -1,0 +1,77 @@
+<!-- about.html, the page displaying how i built this site -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Web History | About</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <p>History of the web</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="about">
+            <h1>About WebHistory - by Noak Palander</h1>
+            <p>WebHistory is a website designed to teach the user the most important things about the web we use on daily basis.</p>
+            <p>It's developed using HTML, CSS, Javascript, and python/flask as it's backend.</p><br>
+            <ul>
+                <li>
+                    <!-- Week 1 -->
+                    <div class="week">
+                        <h2>- Week 1</h2>
+                        <p>During the first week I setup the basic html code (index.html)</p>
+                        <p>The code found in index.html is the home page, I setup a header "menu" with animations and links to the about page (this) 
+                            and back to the home page.</p>
+                        <p>To get the animation and style up I used css and chose to go for a dark purple-theme, utilizing some nice blue/purple color schemes. 
+                            Including some usage of css-gradients.</p>
+                        <p>The first week also consited of me fetching some information that would suit the website's purpose.</p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Week 2 -->
+                    <div class="week">
+                        <h2>- Week 2</h2> 
+                        <p>The second week of the project was mostly aimed at getting the site to look better, in order for this to work I mostly coded in css.</p>
+                        <p>I also had to get some free images that would look good on the site, these are displayed on the home page and on the history page.</p>
+                        <p>The goal that I achieved during this week was for the website to get it's look and layout fixed.</p>    
+                    </div>
+                </li>
+                <li>
+                    <!-- Week 3 -->
+                    <div class="week">
+                        <h2>- Week 3</h2>
+                        <p>The third week was mostly dedicated to coding in client-side javascript. It had to be used to dynamically 
+                            load the text and images needed on the history page.</p>
+                        <p>This could have been excluded if I opted to "hard-code" the text on the site instead of dynamically load them.</p>
+                        <p>The latter seemed like a better choice as then I could more easily change the text on the site without having to change the layout and the html code</p>
+                        <p>Loading texts and images by pure client-side javascript wasn't really possible, so I had to setup a backend server.</p>
+                    </div>
+                </li>
+                <li>
+                    <!-- Week 4 -->
+                    <div class="week">
+                        <h2>- Week 4, the final week</h2>
+                        <p>The final week of the project was mostly server development and last touches on the site.</p>
+                        <p>I started developing a backend server using Node.js, but it was later replaced by Python's Flask module.</p>
+                        <p>I'd rather setup the server using C++'s Boost::Asio framework, however the time-limit made it a bad decision and was therefore not used.</p>
+                        <p>I mostly chose Flask over Node due to my lack of previous experiences with Javascript compared to Python
+                            both of the frameworks would probably suffice.</p>
+                        <p>The server was setup on a linux machine running a debian based OS. And a port was forwarded for the server</p>
+                        <p>I also restructured the file and folder structure for the project, having a "public" folder for all files supposed to be avalible on the site.</p>
+                        <img id="structure" src="structure.png"></img>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

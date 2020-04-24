@@ -1,0 +1,59 @@
+<!-- index.html, the home page -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Web History | Home</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <p>History of the web</p>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <ul id="history">
+            <li>
+                <!-- 1980 -->
+                <div class="div_decenia">
+                    <a href="history.html?year=1980&img=code.jpg" onclick="sendRequest()">1980</a>
+                    <p>The starting roots of the web</p><br>
+                    <img src="code.jpg" alt="Code">
+                </div>
+            </li>
+            <li>
+                <!-- 1990 -->
+                <div class="div_decenia">
+                    <a href="history.html?year=1990&img=www.png" onclick="sendRequest()">1990</a>
+                    <p>The World Wide Web was introduced</p><br>
+                    <img src="www.png" alt="WorldWideWeb">
+                </div>
+            </li>
+            <li>
+                <!-- 2000 -->
+                <div class="div_decenia">
+                    <a href="history.html?year=2000&img=connections.jpg" onclick="sendRequest()">2000</a>
+                    <p>The web became widely avalible</p><br>
+                    <img src="connections.jpg" alt="Connections">
+                </div>
+            </li>
+            <li>
+                <!-- 2010 -->
+                <div class="div_decenia">
+                    <a href="history.html?year=2010&img=net.jpg" onclick="sendRequest()">2010</a>
+                    <p>The web spread everywhere</p><br>
+                    <img src="net.jpg" alt="Net">
+                </div>
+            </li>
+        </ul>
+    </body>
+</html>

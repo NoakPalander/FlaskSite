@@ -1,0 +1,55 @@
+{
+    "1980": {
+        "header": "The starting roots of the web",
+        "text": [
+            "Certain universities in the US gain internet access. Their previously current version of the",
+            "web was an email-only service called PhoneNet.",
+            "The plan to release the internet to the public is starting. During the 80’s the US government",
+            "also developed the DNS protocol which became a core part of websites and their URLs.",
+            "The domains had suffixes for what country they were located in, .gov was special for the government,", 
+            ".mil was for the militar, .edu for education, .org for organization, .se for sweden, .uk for england, etc.",
+            "It was during the 80’s were multiple countries besides the US took a part of it, including Australia,",
+            "Germany, Israel, Italiy, Japan, the United Kingdom, etc."
+        ]
+    },
+    "1990": {
+        "header": "The World Wide Web was introduced",
+        "text": [
+            "The web had grown from 4 to over 300.000 hosts and more countries started joining the internet wave.",
+            "Including Sweden, South Korea, Spain, India, Switzerland, Brazil, Belgium. The internet was now",
+            "not only avalible to governments and universities but also to the general public.",
+            "Web-browsers became avalible which could translate the markup language HTML (Hyper Text Markup Language) to a visual interpretation.",
+            "The 6th August 1991 marks the day were it offically became publically avalible.",
+            "However not many could affoard it, or even deemed it necessary, many people especially the",
+            "older generations marked it a trend that would soon fade.",
+            "The web during the decade becomes more and more populare and expands like a",
+            "supernova, the average price for internet connection across the countries",
+            "where it’s avalible reduces significally."
+        ]
+    },
+    "2000": {
+        "header": "The web became widely avalible",
+        "text": [
+            "The web during the new milenia was evolving at an ever growing rate.",
+            "More and more people got internet access and it was started to be incorporated in elementary schools, ",
+            "it was not odd for people to have internet connection at home with their own personal computers ready to access the web on the spot.",
+            "There weren’t a whole lot of large companies that ruled the web, it was more divided and people tended ",
+            "to use what applications and services they seemed to fit them the most, not by what was the largest. ",
+            "Companies like google still existed, but they weren’t nearly as large as they are today.",
+            "egular entertainment was starting to bloom, however priate copied media was a big and relevant issue. It kept being so beyond the. ",
+            "Social media wasn’t as large but there still were a few trending ones, including MSN, MySpace. Later on facebook replaced them both."
+        ]
+    },
+    "2010": {
+        "header": "The web spread everywhere",
+        "text": [
+            "The web grew from 361 million users to 2 billion, the spread had succeeded well and people who firstly were doubting the evolution of it,",
+            "were starting to realize that it was here to stay.",
+            "IoT technology, or “internet of things” which is small computer ships that are connected to the web, became popular and was deemed to be the future.",
+            "Now instead of having large robust systems that were going to connect to the web, everything could be connected. Even household items as microwave ovens.",
+            "Internet was now widely avalible wirelessly and most people, even children, had access to it via a smartphone. Anyone could connect to it and almost every school,",
+            "including elementary school, had computers connected to the web avalible",
+            "Education with resources online had been proven to be very efficient so people thought it’d be dumb not to use it."
+        ]
+    }
+}

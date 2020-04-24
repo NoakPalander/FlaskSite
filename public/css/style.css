@@ -1,0 +1,205 @@
+/* *.html */
+body {
+	margin: 0;
+	background-color: #0C0032;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* -- Container div (header) -- */
+.container {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* -- Header -- */
+header {
+	background: #282828;
+	height: 90px;
+}
+
+/* -- Fix for display-glitch -- */
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container p {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 130px;
+
+	font-size: 30px;
+    text-decoration: underline;
+    color: #5900ff;
+}
+
+/* -- Navigation menu -- */
+.container nav {
+	float: right;
+}
+
+/* -- Navigation list -- */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* -- List items of container  -- */
+.container nav  li {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 35px;
+
+	position: relative;
+}
+
+/* -- Links of container -- */
+.container nav ul li a {
+	color: #5900ff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+/* -- Active list item-- */
+.active, nav:active {
+	font-weight: bold;
+}
+
+/* -- Hover effect -- */
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	margin-top: 20px;
+	background-color: #0C0032;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 235ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+/* index.html */
+#history {
+	list-style: none;
+}
+
+#history li div a {
+	font-size: 30pt;
+}
+
+/* Div container for all the ul - elements in history */
+.div_decenia {
+	background-image: linear-gradient(to right, #6f00ff, #190061);
+	margin-top: 20px;
+	margin-right: 3%;
+	padding-top: 10px;
+}
+
+.div_decenia a {
+	color: #0C0032;
+	margin-left: 20%;
+}
+
+.div_decenia a:hover {
+	font-style: italic;
+}
+
+.div_decenia p {
+	font-size: 20pt;
+	margin-left: 11%;
+	margin-top: 20px;
+}
+
+.div_decenia img {
+	margin-top: -8%;
+	padding-bottom: 3px;
+	margin-left: 44%;
+	width: 50%;
+	height: 445px;
+}
+
+/* 1980.html */
+#page {
+	background-image: linear-gradient(to left, #6f00ff, #190061);
+	margin-top: 10px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+#page h1 {
+	color: #FFF;
+	margin-left: 10px;
+}
+
+#page p {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #FFF;
+	font-size: 13pt;
+}
+
+#page img {
+	float: right;
+	margin-bottom: 25px;
+	margin-right: 10px;
+	width: 900px;
+	max-height: 500px;
+}
+
+#page button {
+	margin-top: 22%;
+	margin-left: 20px;
+}
+
+#about ul {
+	list-style: none;
+}
+
+#about h1 {
+	font-size: 32pt;
+	text-align: center;
+	color: white;
+}
+
+#about h2 {
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+}
+
+#about ul li p {
+	font-size: 13pt;
+}
+
+#about p {
+	font-size: 15pt;
+	text-align: center;
+	color: white;
+}
+
+#structure {
+	margin-left: 19%;
+}
+
+.week {
+	width: 98%;
+	background-image: linear-gradient(to left, #190061, #6f00ff);
+	padding-bottom: 1px;
+}
+
+.week h2 {
+	padding-top: 5px;
+}
